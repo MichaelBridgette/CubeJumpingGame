@@ -7,6 +7,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/OpenGL.hpp>
 #include"player.h"
+#include"Obstacles.h"
 class game {
 public:
 	game();
@@ -22,7 +23,7 @@ private:
 	void unload();
 	
 	player m_player1;
-
+	Obstacle m_obstacle;
 
 	/*sf::Vector3f v1 = sf::Vector3f(-0.05f, -0.05f, 0.05f);
 	sf::Vector3f v2 = sf::Vector3f(-0.05f, 0.05f, 0.05f);

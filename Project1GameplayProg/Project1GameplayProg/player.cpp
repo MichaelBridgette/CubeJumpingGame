@@ -44,9 +44,9 @@ void player::move()
 		v8 += m_left;
 
 	}
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)&& m_position.y>=250&&isJump==false)
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)&&isJump==false)
 	{
-		m_velocity.y = 0.002;
+		m_velocity.y = 0.001;
 	}
 	
 
@@ -68,17 +68,12 @@ void player::move()
 		isJump = true;
 		
 	}
-	if (v1.y < -0.2)
+	if (v4.y < -0.05)
 	{
 		m_velocity.y = 0;
-		if (!sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && v1.y <-0.2)
+		if (!sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && v4.y <-0.05)
 		{
 			isJump = false;
 		}
 	}
-
-	
-
-
-	//m_sprite.setPosition(m_position);
 }

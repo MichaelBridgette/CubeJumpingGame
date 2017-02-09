@@ -1,5 +1,2 @@
-﻿  game.cpp
-g:\project1gameplay\cubejumpinggame\project1gameplayprog\project1gameplayprog\player.h(31): warning C4305: 'argument': truncation from 'double' to 'float'
-g:\project1gameplay\cubejumpinggame\project1gameplayprog\project1gameplayprog\player.h(32): warning C4305: 'argument': truncation from 'double' to 'float'
-  Project1GameplayProg.vcxproj -> G:\Project1Gameplay\CubeJumpingGame\Project1GameplayProg\Debug\Project1GameplayProg.exe
+﻿  Project1GameplayProg.vcxproj -> G:\Project1Gameplay\CubeJumpingGame\Project1GameplayProg\Debug\Project1GameplayProg.exe
   Project1GameplayProg.vcxproj -> G:\Project1Gameplay\CubeJumpingGame\Project1GameplayProg\Debug\Project1GameplayProg.pdb (Partial PDB)
