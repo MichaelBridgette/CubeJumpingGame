@@ -24,6 +24,12 @@ using namespace std;
 using namespace sf;
 using namespace glm;
 
+
+enum gameState {
+	Playing,
+	GameOver
+};
+
 class Game
 {
 public:
@@ -38,9 +44,13 @@ private:
 	void update();
 	void render();
 	void unload();
-	void cubeRender(mat4 &model);
+	void cubeRender(mat4 &model, GLuint prog);
+	void readIDs(GLuint prog);
 	float distance;
-
+	sf::Clock m_timer;
+	gameState m_gameState= gameState::Playing;
+	string hud;
+	Text text;
 };
 
 #endif
